@@ -49,11 +49,10 @@ pip install --upgrade pip setuptools wheel
 ## How It Works
 
 1. Every 3 hours, the script checks each source for updated articles.
-2. If a new article is found (not in the cache), it:
+2. If a new article is posted; it:
    - Downloads the article content
    - Summarizes it using the LLM chain
-   - Escapes the text for markdown-safe output
-   - Sends the message (e.g., to Telegram, Slack, or console)
+   - Sends the message to Telegram
 
 
 ## 🏛 News Sources and URLs
