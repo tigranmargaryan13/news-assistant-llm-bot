@@ -1,0 +1,17 @@
+bs4==0.0.2
+requests==2.32.3
+tqdm==4.67.1
+openai==1.61.1
+langchain-openai==0.3.4
+python-telegram-bot==21.10
+pydantic-settings==2.7.1
+#SQLAlchemy==2.0.39
+#psycopg2-binary==2.9.9
+#psycopg[binary,pool]
+#alembic==1.15.1
+#langchain_postgres==0.0.13
+langchain==0.3.20
+#langchain_huggingface==0.1.2
+selenium==4.30.0
+
+webdriver-manager==4.0.2 # TODO
