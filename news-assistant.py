@@ -54,6 +54,7 @@ if __name__ == "__main__":
     while True:
         current_time = datetime.now()
 
+        #TODO move to cron
         if should_run(current_time):
             for source in settings.NEWS_SOURCES:
                 article, link = loader.get_latest_article_if_updated(source)
